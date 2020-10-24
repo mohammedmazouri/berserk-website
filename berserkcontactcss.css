@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  }
+
+.container {
+       width:100%;
+       height:100vh;
+       background-image: url(./berserkcontactbackground.jpg);
+       /*background-position: center;
+       position:relative;*/
+       background-size:cover;
+       padding-top:30px;
+       box-sizing:border-box;
+       }
+
+.navbar{
+       width:100%;
+       height:60px;
+       display:flex;
+       align-items:center;
+       background: rgba(195,134,2,0.6);
+       padding:0 60px;
+       box-sizing:border-box
+     }
+
+.logo{
+      width:155px;
+}
+.logo img{
+     width:80px;
+     position:relative;
+     z-index:10;
+     cursor:pointer;
+}
+
+nav{
+    flex:1;
+}
+
+nav ul li{
+      list:none;
+      display:inline-block;
+      margin-right:60px;
+}
+
+nav ul li a{
+       text-decoration:none;
+       color:#fff;
+       font-size:14px;
+}
+
+.msg-container{
+      width:600px;
+      height:440px;
+      position:absolute;
+      left:30%;
+      top:55%;
+      transform:translateY(-50%);
+      overflow:hidden;
+   }
+h1{
+   color: #eedc00;
+   font-family: "Times New Roman", Times, serif;
+   font-size: 3em;
+   position:relative;
+   left:30%;
+
+}
+.contact-form{
+       display:block;
+       width:100%;
+       box-size:border-box;
+       margin:16px 0;
+       border:0;
+       background:rgba(255,255,255,0.6);
+       outline:none;
+
+}
+
+.contact-form:hover{
+   box-shadow:0 0 10px rgb(195,134,2);
+
+}
+
+.contact-button{
+       float:right;
+       border:0;
+       background:rgba(195,134,2,0.6);
+       padding:12px 50px;
+       border-radius: 20px;
+}
+
+.contact-button:hover{
+      background:rgba(195,134,2,0.9);
+}
